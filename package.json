@@ -1,7 +1,7 @@
 {
-  "name": "social-deduction-facilitator",
+  "name": "bgh-server",
   "version": "0.0.0",
-  "description": "facilitator for social deduction games",
+  "description": "helper for board games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasonYang96/social-deduction-facilitator.git"
+    "url": "git+https://github.com/JasonYang96/bgh-server.git"
   },
   "keywords": [
-    "social",
-    "deduction",
-    "facilitator"
+    "board",
+    "game",
+    "facilitator",
+    "helper"
   ],
   "author": "Jason Yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JasonYang96/social-deduction-facilitator/issues"
+    "url": "https://github.com/JasonYang96/bgh-server/issues"
   },
-  "homepage": "https://github.com/JasonYang96/social-deduction-facilitator#readme",
+  "homepage": "https://github.com/JasonYang96/bgh-server#readme",
   "dependencies": {
     "express": "^4.16.3",
     "nodemon": "^1.17.3",
