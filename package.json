@@ -1,0 +1,30 @@
+{
+  "name": "social-deduction-facilitator",
+  "version": "0.0.0",
+  "description": "facilitator for social deduction games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonYang96/social-deduction-facilitator.git"
+  },
+  "keywords": [
+    "social",
+    "deduction",
+    "facilitator"
+  ],
+  "author": "Jason Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonYang96/social-deduction-facilitator/issues"
+  },
+  "homepage": "https://github.com/JasonYang96/social-deduction-facilitator#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "socket.io": "^2.1.0"
+  }
+}
