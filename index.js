@@ -38,6 +38,7 @@ io.on('connection', (socket) => {
     room = users.find(user => user.socketId === socket.id).roomName;
     console.log('room', room);
     io.to(room).emit('new users', users);
+    io.to(room).emit('game started');
   });
 
   socket.on('message', (message) => {
